@@ -1,7 +1,7 @@
 """ESG 披露标准知识库 MCP 服务器(esg-kb)
 
-数据源:F:\\esg 知识库
-  - indexes/kb-index.json   23 个知识文件的元数据索引
+数据源:本仓库根目录下的知识库(检出后即用,无需配置)
+  - indexes/kb-index.json   知识文件元数据索引
   - indexes/topics.json     21 个议题 × IFRS/GRI/SASB 映射
   - knowledge/**/*.md       知识库正文
 

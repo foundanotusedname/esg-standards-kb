@@ -51,10 +51,19 @@
 
 ## 配套组件
 
-- **esg-standards skill**:已安装到用户级目录(`C:\Users\daaa\.agents\skills\esg-standards\`),任意工作区对话中涉及 ESG 披露标准时自动触发,按路由表查阅本库;源文件在 `skill-esg-standards/`(修改后需同步,见该目录 README)。
+- **esg-standards skill**:安装到本机用户级目录(`~/.agents/skills/esg-standards/`,Windows 即 `%USERPROFILE%\.agents\skills\`),任意工作区对话中涉及 ESG 披露标准时自动触发,按路由表查阅本库;源文件在 `skill-esg-standards/`(安装与同步方法见该目录 README)。
 - **indexes/**:机器可读索引(JSON),知识库的元数据底座。
 - **esg-kb MCP 服务器**:已注册到 ZCode 用户级配置(`~/.zcode/cli/config.json`),提供 `esg_search` / `esg_get` / `esg_compare` / `esg_industry` 四个检索工具,新会话自动连接(详见 [mcp/README.md](mcp/README.md))。
 - **PLAN.md**:项目计划与范围。
+
+## 许可证
+
+| 内容 | 许可证 |
+|---|---|
+| 代码(`mcp/*.py`) | [MIT](LICENSE) |
+| 知识内容(`knowledge/`、`sources/`、`indexes/` 及各文档) | [CC BY 4.0](LICENSE-CONTENT)(署名即可自由转载与引用) |
+
+免责声明:本库为对公开标准的**独立结构化解读**,不复制标准原文;标准原文版权归相应官方机构(沪深北交易所、IFRS 基金会、GRI 等)所有。内容仅供学习参考,不构成法律或合规意见,引用时请以官方最新文本为准。
 
 ## 版本记录
 
@@ -62,3 +71,4 @@
 |---|---|---|
 | v1.0 | 2026-09-08 | 首版:覆盖计划内全部核心标准 |
 | v1.1 | 2026-09-08 | 新增 esg-kb MCP 服务器(esg_search / esg_get / esg_compare / esg_industry)并注册 |
+| v1.2 | 2026-09-08 | 新增许可证(代码 MIT / 内容 CC BY 4.0);清理本机特定路径 |
