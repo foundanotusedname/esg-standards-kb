@@ -1,0 +1,40 @@
+{
+  "name": "esg-knowledge-base",
+  "version": "1.0",
+  "updated": "2026-09-08",
+  "description": "ESG 披露标准知识库机器索引。供 esg-standards skill 路由与未来 MCP 检索使用。路径相对 F:/esg。",
+  "categories": [
+    {"id": "00", "name": "标准全景", "path": "knowledge/00-标准全景"},
+    {"id": "01", "name": "三大交易所", "path": "knowledge/01-三大交易所"},
+    {"id": "02", "name": "ISSB", "path": "knowledge/02-ISSB"},
+    {"id": "03", "name": "SASB", "path": "knowledge/03-SASB"},
+    {"id": "04", "name": "GRI", "path": "knowledge/04-GRI"},
+    {"id": "05", "name": "映射与选型", "path": "knowledge/05-映射与选型"},
+    {"id": "06", "name": "编制实务", "path": "knowledge/06-编制实务"}
+  ],
+  "files": [
+    {"id": "00-01", "path": "knowledge/00-标准全景/01-标准全景图.md", "title": "标准全景图", "standards": ["全部"], "tags": ["导览", "标准关系", "谁该用哪个"], "summary": "五套核心标准的一句话画像、关系图、按身份速查表。"},
+    {"id": "00-02", "path": "knowledge/00-标准全景/02-对比矩阵.md", "title": "标准对比矩阵", "standards": ["全部"], "tags": ["对比", "重要性口径", "强制力"], "summary": "定位/结构/重要性口径/时间效力四个维度的逐项对比,含四种重要性口径辨析。"},
+    {"id": "00-03", "path": "knowledge/00-标准全景/03-发展时间线.md", "title": "发展时间线", "standards": ["全部"], "tags": ["历史", "演进"], "summary": "国际线与中国线大事记,理解标准格局的形成过程。"},
+    {"id": "00-04", "path": "knowledge/00-标准全景/04-核心术语表.md", "title": "核心术语表", "standards": ["全部"], "tags": ["术语", "中英对照", "范围123", "双重重要性"], "summary": "30 个高频术语速查,含易混词辨析。"},
+    {"id": "01-01", "path": "knowledge/01-三大交易所/01-总览与时间表.md", "title": "三大交易所指引总览与时间表", "standards": ["沪深北指引"], "tags": ["强制范围", "时间表", "制度地图"], "summary": "证监会-交易所-财政部制度地图、强制主体分界、关键日期、三所共同框架与差异。"},
+    {"id": "01-02", "path": "knowledge/01-三大交易所/02-上交所指引第14号解读.md", "title": "上交所指引第14号解读", "standards": ["上交所指引"], "tags": ["章节结构", "四要素", "豁免", "过渡期"], "summary": "沪市规则的文件结构、披露原则、四要素框架、豁免与过渡安排、与国际标准衔接。"},
+    {"id": "01-03", "path": "knowledge/01-三大交易所/03-深交所指引第17号解读.md", "title": "深交所指引第17号解读", "standards": ["深交所指引"], "tags": ["深证100", "创业板指", "差异"], "summary": "深市规则:与上交所实质一致,仅强制指数范围与文号不同。"},
+    {"id": "01-04", "path": "knowledge/01-三大交易所/04-北交所指引第11号解读.md", "title": "北交所指引第11号解读", "standards": ["北交所指引"], "tags": ["北证50", "中小企业", "差异化"], "summary": "北交所差异化安排:北证50强制、其他自愿、简化与灵活过渡。"},
+    {"id": "01-05", "path": "knowledge/01-三大交易所/05-编制指南解读.md", "title": "编制指南解读", "standards": ["编制指南"], "tags": ["编制方法", "总体要求", "应对气候变化"], "summary": "编制指南第1号(总体要求)与第2号(应对气候变化)的内容与用法。"},
+    {"id": "01-06", "path": "knowledge/01-三大交易所/06-议题与指标清单.md", "title": "21个议题与指标清单", "standards": ["沪深北指引"], "tags": ["议题清单", "指标", "环境", "社会", "治理"], "summary": "21 个议题(环境8+社会9+治理4)的披露要点、典型指标与国际对应。"},
+    {"id": "02-01", "path": "knowledge/02-ISSB/01-IFRS-S1解读.md", "title": "IFRS S1 解读", "standards": ["IFRS S1"], "tags": ["一般要求", "四要素", "财务重要性", "关联性"], "summary": "S1 的披露目标、四要素、关键概念(财务重要性/价值链/关联性)与过渡缓释。"},
+    {"id": "02-02", "path": "knowledge/02-ISSB/02-IFRS-S2解读.md", "title": "IFRS S2 解读", "standards": ["IFRS S2"], "tags": ["气候", "范围123", "情景分析", "转型计划"], "summary": "S2 四支柱下的披露要求、跨行业指标、GHG 核算口径与过渡缓释。"},
+    {"id": "02-03", "path": "knowledge/02-ISSB/03-TCFD关系与采用动态.md", "title": "TCFD 关系与全球采用动态", "standards": ["IFRS S1", "IFRS S2", "TCFD"], "tags": ["TCFD", "辖区采用", "修订动态"], "summary": "TCFD 并入 S2 的脉络、各辖区采用状态、ISSB 2025-2026 标准设定动态。"},
+    {"id": "03-01", "path": "knowledge/03-SASB/01-框架与使用逻辑.md", "title": "SASB 框架与使用逻辑", "standards": ["SASB"], "tags": ["行业实质性", "维度", "使用方法"], "summary": "77 行业标准的结构(5维度/26议题/指标/技术协议)与三步使用法。"},
+    {"id": "03-02", "path": "knowledge/03-SASB/02-77行业速查索引.md", "title": "SASB 77 行业速查索引", "standards": ["SASB"], "tags": ["行业索引", "部门", "行业议题"], "summary": "11 部门结构与代表行业、14 个高频行业的实质性议题速查、行业定位方法。"},
+    {"id": "04-01", "path": "knowledge/04-GRI/01-体系总览.md", "title": "GRI 体系总览", "standards": ["GRI"], "tags": ["三层结构", "in accordance", "报告原则"], "summary": "GRI 三层标准、两种报告声明、8 项报告原则、与 ISSB/指引的关系。"},
+    {"id": "04-02", "path": "knowledge/04-GRI/02-通用标准GRI1-2-3.md", "title": "GRI 通用标准(1/2/3)", "standards": ["GRI 1", "GRI 2", "GRI 3"], "tags": ["GRI 2 一般披露", "GRI 3 实质性议题"], "summary": "GRI 1 规则、GRI 2 的 30 项披露清单、GRI 3 的 3-1/3-2/3-3。"},
+    {"id": "04-03", "path": "knowledge/04-GRI/03-议题标准速查.md", "title": "GRI 议题标准速查", "standards": ["GRI"], "tags": ["200系列", "300系列", "400系列", "GRI 102", "GRI 101"], "summary": "全部议题标准名单与关键披露项,2024-2026 换代提示(101/102 替代 304/302/305)。"},
+    {"id": "04-04", "path": "knowledge/04-GRI/04-行业标准速查.md", "title": "GRI 行业标准速查", "standards": ["GRI 11", "GRI 12", "GRI 13", "GRI 14"], "tags": ["行业标准", "油气", "煤炭", "农业", "采矿"], "summary": "4 个已发布行业标准、使用顺序、与 SASB 行业标准的区别。"},
+    {"id": "05-01", "path": "knowledge/05-映射与选型/01-议题级互映射表.md", "title": "议题级互映射表", "standards": ["全部"], "tags": ["映射", "互操作", "对照"], "summary": "21 议题 × IFRS/GRI/SASB 的横向映射、框架级要素映射、官方互操作文件清单。"},
+    {"id": "05-02", "path": "knowledge/05-映射与选型/02-选型决策树.md", "title": "标准选型决策树", "standards": ["全部"], "tags": ["选型", "组合策略", "索引模板"], "summary": "按处境与读者的决策树、按身份的推荐组合、最小可用与多框架对齐两种模式。"},
+    {"id": "06-01", "path": "knowledge/06-编制实务/01-编制全流程.md", "title": "编制全流程", "standards": ["沪深北指引", "编制指南"], "tags": ["流程", "双重重要性评估", "日历", "分工"], "summary": "8 阶段编制流程、年度日历、部门分工、首次编制常见坑。"},
+    {"id": "06-02", "path": "knowledge/06-编制实务/02-高频问题FAQ.md", "title": "高频问题 FAQ", "standards": ["全部"], "tags": ["FAQ", "适用性", "边界", "鉴证"], "summary": "15 个高频问题短答与跳转,含未收录声明。"}
+  ]
+}

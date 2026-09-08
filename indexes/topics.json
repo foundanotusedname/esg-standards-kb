@@ -1,0 +1,29 @@
+{
+  "name": "esg-topics-mapping",
+  "version": "1.0",
+  "updated": "2026-09-08",
+  "description": "三大交易所指引 21 个议题与 IFRS/GRI/SASB 的映射数据,供 skill 路由与未来 MCP esg_compare 使用。映射为功能等价,非条款互换;口径差异见 knowledge/05-映射与选型/01-议题级互映射表.md。",
+  "topics": [
+    {"id": "climate", "cn": "应对气候变化", "category": "环境", "ifrs": "IFRS S2(全文)", "gri": "GRI 102 Climate Change 2025(2026起,替代302/305)", "sasb": "气候跨行业指标+各行业气候议题", "note": "范围1/2强制、范围3鼓励(三所);S2范围3强制但首年缓释"},
+    {"id": "pollutants", "cn": "污染物排放", "category": "环境", "ifrs": "S1 财务重要性下", "gri": "GRI 305-6/305-7;2026 新污染标准(待确认)", "sasb": "环境·污染物(化工/公用事业等)", "note": ""},
+    {"id": "waste", "cn": "废弃物处理", "category": "环境", "ifrs": "S1 财务重要性下", "gri": "GRI 306 Waste", "sasb": "环境·废弃物与危险品", "note": ""},
+    {"id": "biodiversity", "cn": "生态系统和生物多样性保护", "category": "环境", "ifrs": "S1 财务重要性下(资源依赖行业)", "gri": "GRI 101 Biodiversity 2024(2026起,替代304)", "sasb": "环境·生态影响(采矿/农业/林业)", "note": "延伸参考 TNFD"},
+    {"id": "env-compliance", "cn": "环境合规管理", "category": "环境", "ifrs": "S1", "gri": "GRI 2-27", "sasb": "治理·合规", "note": ""},
+    {"id": "energy", "cn": "能源利用", "category": "环境", "ifrs": "S2(能耗指标)", "gri": "GRI 302 → GRI 102", "sasb": "环境·能源管理", "note": ""},
+    {"id": "water", "cn": "水资源利用", "category": "环境", "ifrs": "S1/S2 视行业", "gri": "GRI 303", "sasb": "环境·水资源管理", "note": ""},
+    {"id": "circular", "cn": "循环经济", "category": "环境", "ifrs": "S1 财务重要性下", "gri": "GRI 301 + 306", "sasb": "环境·产品生命周期", "note": ""},
+    {"id": "rural", "cn": "乡村振兴", "category": "社会", "ifrs": "无直接对应", "gri": "无直接对应(可借203/413)", "sasb": "无", "note": "中国特色议题"},
+    {"id": "contribution", "cn": "社会贡献", "category": "社会", "ifrs": "无直接对应", "gri": "GRI 413(部分)", "sasb": "社会资本·社区", "note": ""},
+    {"id": "innovation", "cn": "创新驱动", "category": "社会", "ifrs": "S1(机遇)", "gri": "无直接(203部分)", "sasb": "商业模式与创新", "note": ""},
+    {"id": "tech-ethics", "cn": "科技伦理", "category": "社会", "ifrs": "无直接对应", "gri": "无直接对应", "sasb": "无(新兴议题)", "note": ""},
+    {"id": "supply-customer", "cn": "供应商与客户", "category": "社会", "ifrs": "S1(供应链风险)", "gri": "GRI 204/414、308/414", "sasb": "社会资本·供应链管理", "note": ""},
+    {"id": "smes", "cn": "平等对待中小企业", "category": "社会", "ifrs": "无直接对应", "gri": "无直接对应", "sasb": "无", "note": "中国特色议题(付款账期)"},
+    {"id": "product-safety", "cn": "产品和服务安全与质量", "category": "社会", "ifrs": "S1(召回/责任成本)", "gri": "GRI 416", "sasb": "商业模式与创新·产品安全", "note": ""},
+    {"id": "data-privacy", "cn": "数据安全与客户隐私保护", "category": "社会", "ifrs": "S1(网络安全与数据风险)", "gri": "GRI 418", "sasb": "社会资本·数据隐私与安全", "note": ""},
+    {"id": "employees", "cn": "员工", "category": "社会", "ifrs": "S1(人力资本)", "gri": "GRI 401-406、408-409", "sasb": "人力资本维度", "note": ""},
+    {"id": "due-diligence", "cn": "尽职调查", "category": "治理", "ifrs": "S1 流程要求", "gri": "GRI 2-23/24、2-25、412", "sasb": "治理·商业伦理", "note": "GRI语境=人权/环境尽调"},
+    {"id": "stakeholder", "cn": "利益相关方沟通", "category": "治理", "ifrs": "S1(编制过程)", "gri": "GRI 2-29", "sasb": "治理·利益相关方", "note": ""},
+    {"id": "anti-corruption", "cn": "反商业贿赂及反贪污", "category": "治理", "ifrs": "S1(贿赂风险)", "gri": "GRI 205", "sasb": "治理·商业伦理", "note": ""},
+    {"id": "competition", "cn": "反不正当竞争", "category": "治理", "ifrs": "S1", "gri": "GRI 206", "sasb": "治理·商业伦理", "note": ""}
+  ]
+}
